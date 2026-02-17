@@ -270,6 +270,5 @@ RUST_LOG=debug cargo run
 ## 📞 Support
 
 For questions or issues, contact via Telegram: [@Vladmeer](https://t.me/vladmeer67) and Twitter: [@Vladmeer](https://x.com/vladmeer67)
----
 
 **Built with ❤️ using Rust**
