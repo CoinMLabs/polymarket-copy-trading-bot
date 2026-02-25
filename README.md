@@ -4,6 +4,9 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 A high-performance Rust implementation of a copy trading bot for [Polymarket](https://polymarket.com/). This bot automatically mirrors trades from selected traders to your wallet in real-time using WebSocket connections for minimal latency.
+<img width="1545" height="911" alt="image (15)" src="https://github.com/user-attachments/assets/2adbd321-d8b7-453a-be84-c80b3083dca5" />
+<img width="1464" height="941" alt="image (16)" src="https://github.com/user-attachments/assets/127699f6-05e1-44f2-9c47-7140e559b43e" />
+<img width="1280" height="772" alt="image (17)" src="https://github.com/user-attachments/assets/15eb7771-5c59-4c39-8054-36e7530fb253" />
 
 ## 🚀 Features
 
@@ -231,28 +234,6 @@ polymarket-copy-trader-rust/
 
 ## 🐛 Troubleshooting
 
-### Common Issues
-
-**Connection Errors**
-- Verify your RPC endpoint is accessible
-- Check network connectivity
-- Ensure WebSocket URLs are correct
-
-**Balance Errors**
-- Verify USDC balance in your wallet
-- Check USDC contract address matches Polygon mainnet
-- Ensure sufficient balance for minimum order size
-
-**Trade Execution Failures**
-- Check USDC allowance for Polymarket exchange
-- Verify private key is correct and wallet has permissions
-- Review logs for specific error messages
-
-**Configuration Errors**
-- Ensure all required environment variables are set
-- Verify Ethereum addresses are valid (0x + 40 hex chars)
-- Check that `.env` file exists and is properly formatted
-
 ### Debug Mode
 
 Enable verbose logging by running in development mode:
@@ -266,6 +247,9 @@ RUST_LOG=debug cargo run
 - **Throughput**: Handles multiple traders simultaneously
 - **Resource Usage**: Low memory footprint, efficient WebSocket handling
 - **Reliability**: Automatic reconnection and retry logic
+
+## How it works
+
 
 ## 📞 Support
 
