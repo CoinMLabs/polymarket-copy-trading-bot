@@ -14,7 +14,7 @@ A high-performance Rust implementation of a copy trading bot for [Polymarket](ht
 ### Lightning-fast identical copying: same entry price + exact share size for perfect mirroring
 
 ![photo_2026-02-26_09-02-04](https://github.com/user-attachments/assets/0c687305-d508-45e9-b7aa-19cf522f14d1)
-![photo_2026-02-24_03-06-52](https://github.com/user-attachments/assets/711e96f1-ad15-4e12-b930-468d24dbeb36)
+![photo_2026-02-26_09-02-09](https://github.com/user-attachments/assets/74f79c9c-c0ea-4a4e-85b1-6b27fcc55c21)
 
 ### Real-Time Trade Execution
 - **WebSocket-Based Monitoring**: Connects to Polymarket's Real-Time Data Stream (RTDS) for instant trade detection
